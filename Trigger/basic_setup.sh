@@ -4,8 +4,8 @@
 # All custom policy triggers are for example purposes only, so unless your JSS uses the same
 # customer trigger string, they will all fail.
 
-# Trigger app 
-TRIGGER="/Users/pyang/Documents/Work/MacDEP/Trigger/Trigger.app/Contents/MacOS/Trigger"
+# Trigger app
+TRIGGER="/Library/Application Support/JAMF/bin/DEP/Trigger.app/Contents/MacOS/Trigger"
 
 # Names of additional apps
 ADOBE_CC_NAME="Adobe Creative Cloud 2017"
@@ -51,14 +51,14 @@ then
 		app=$(echo "$line" | sed 's/%20/ /g' | sed 's/%2f/\//g' | sed 's/=on//g')
 		# For each app selected, we want to create a HTML file so that we have a webView to
 		# present as we run the policy trigger command
-		
+
 		file="/tmp/$app.html"
                 if [ -f "$file" ]
                 then
                         rm "$file"
                 fi
 		# Get the app name, to display in the webview
-		case "$app" in 
+		case "$app" in
 		"$ADOBE_CC_TRIGGER")
 			app_name="$ADOBE_CC_NAME"
 			;;
@@ -82,7 +82,7 @@ then
     		  <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 			  </head>
 			  <body>
-			  <div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div><div class=\"documentWrapper\"><div id=\"mainTitle\"><img src=\"https://media.giphy.com/media/fo6l1ADrd03Is/giphy.gif\"><br /><p>Installing $app_name</div></div><div class=\"footerBar\"><div class=\"footerText\">For assistance, contact ACME's Service & Support Centre</a><br />www: acme.com/serviceandsupport | ext. 88888 | phone: (03) 9925 8888</div></div>
+			  <div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div><div class=\"documentWrapper\"><div id=\"mainTitle\"><img src=\"https://media.giphy.com/media/fo6l1ADrd03Is/giphy.gif\"><br /><p>Installing $app_name</div></div><div class=\"footerBar\"><div class=\"footerText\">For assistance, contact ACME's Service & Support Centre</a><br />www: acme.com/serviceandsupport | ext. 88888 | phone: (03) 9925 8888</div></div>
 			  </body></html>" > "$file"
 
 		# We want to construct the sequence of webView/command pairs
@@ -91,8 +91,8 @@ then
 			command="--file /tmp/$app.html \"policy -trigger '$app'\",\"$app_name\""
 		else
 			command="$command --file /tmp/$app.html \"policy -trigger '$app'\",\"$app_name\""
-		fi	
-	done	
+		fi
+	done
 	install_command="sudo $TRIGGER --fullscreen $command --file /tmp/finish.html wait --output $OUTPUT_2"
 	# Runs the Trigger command for all selected additional apps
 	eval $install_command
@@ -104,6 +104,3 @@ else
 	# at what point in the workflow this exit is being called.
     exit 0
 fi
-
-
-    

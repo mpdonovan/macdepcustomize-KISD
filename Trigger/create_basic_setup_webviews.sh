@@ -9,17 +9,16 @@ if [[ -f "$FILE" ]]
 then
     rm "$FILE"
 fi
-
 echo "<html>
 <head>
     <title>ACME Mac Setup</title>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
-    	<div id=\"mainText\">This Mac will now be setup as an ACME Inc. Mac<br />Before beginning:</div>	
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
+    	<div id=\"mainText\">This Mac will now be setup as an ACME Inc. Mac<br />Before beginning:</div>
 		<div id=\"mainList\">
 			<ul>
 			<li>Make sure your Mac is connected to the wired network</span></li>
@@ -27,7 +26,7 @@ echo "<html>
 			</ul>
 		</div>
 		<p>
-		
+
 		<div id=\"mainTitle\"  style=\"color:black;\">Click Ready to begin.</div>
         <div id=\"buttons\"\">
 			<a href=\"http://quit\"><button id=\"buttonLeft\">Cancel</button></a>
@@ -53,9 +52,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     <div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\"><img src=\"https://media.giphy.com/media/fo6l1ADrd03Is/giphy.gif\" class=\"inprogressSmallImage\"> Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\" style=\"color:#d3d3d3;\">&nbsp;&nbsp; Software</div>
@@ -86,9 +85,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
 		<div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#9755; Software</div>
@@ -116,9 +115,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     <div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#9755; Software</div>
@@ -147,9 +146,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     	<div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#9755; Software</div>
@@ -179,9 +178,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     	<div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#9755; Software</div>
@@ -214,9 +213,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     	<div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#9755; Software</div>
@@ -247,9 +246,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
     	<div id=\"setupProgress\">
     		<div id=\"mainStatus\" class=\"done\">&#10003; Mac Configuration</div>
 			<div id=\"mainStatus\" class=\"done\">&#10003; Software</div>
@@ -279,9 +278,9 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
 		<div id=\"mainTitle\">Install Additional Software</div>
 		<p>
 		<form class=\"additional-apps\">
@@ -301,8 +300,8 @@ echo "<html>
 			 <input name=\"vmware_7\" type=\"checkbox\" id=\"adobecc\"/>
 			 <label id=\"app\">VMware Fusion</label><br />
 			</div>
-		</form> 
-		
+		</form>
+
 		<div id=\"buttons\" style=\"width: 360px;margin-left:170px;\">
 			<a href=\"http://quit\"><button id=\"buttonLeft\" style=\"width: 220px;\">Cancel & Reboot</button></a>
   			<a href='http://formParse'><button id=\"buttonRight\">Install</button></a>
@@ -327,16 +326,16 @@ echo "<html>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">
 </head>
 <body>
-	<div class=\"titleBar\"><img class=\"titleIcon\" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
+	<div class=\"titleBar\"><img class=\"titleIcon\" src="KISDColorsealWithBG.png"><h1 class=\"titleText\">ACME Mac Setup</h1></div>
 
-	<div class=\"documentWrapper\"><img class="logo" src=\"http://www.nashbox.com/new/wp-content/uploads/2012/01/acme_logo.jpg\">
+	<div class=\"documentWrapper\"><img class="logo" src="KISDColorsealWithBG.png">
 		<div id=\"mainText\" style=\"color:black;\">Mac Setup is now complete.</div>
 		<p>
 		<object class=\"object\" data=\"output1.html\"></object>
-		<object class=\"object\" data=\"output2.html\"></object>	
+		<object class=\"object\" data=\"output2.html\"></object>
 
 		<a href=\"http://quit\"><button class=\"button1\">Finish</button></a>
-	
+
 	</div>
 <div class=\"footerBar\"><div class=\"footerText\">For assistance, contact ACME's Service & Support Centre</a><br />www: acme.com/serviceandsupport | ext. 88888 | phone: (03) 9925 8888</div></div>
 </body>
